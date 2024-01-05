@@ -1,0 +1,9 @@
+in r1
+in r2
+lea 4000
+movrm r2 r15
+cmp r1 r15
+je 0015
+halt
+out r1
+halt

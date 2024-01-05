@@ -1,0 +1,10 @@
+in r1
+in r2
+lea 4000
+movrm r2 r15
+cmp r1 r15
+jg 0018
+out r2
+jmp 001B
+out r1
+halt

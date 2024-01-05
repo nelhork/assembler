@@ -1,0 +1,10 @@
+fin r1
+fin r2
+lea 4000
+movrm r2 r15
+fdiv r1 r15
+movrr r1 r2
+call 0018
+halt
+fout r2
+ret
